@@ -15,7 +15,7 @@ RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli
     && mv wp-cli.phar /usr/local/bin/wp
 
 # Copy project files into the container
-COPY ./wp-content /var/www/html
+COPY . /var/www/html
 # COPY ./wp-config.php /var/www/html
 
 # Set appropriate permissions

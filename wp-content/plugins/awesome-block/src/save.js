@@ -17,7 +17,7 @@ import { useBlockProps } from '@wordpress/block-editor';
  */
 function Header() {
 	return(
-		<div className='min-h-screen flex justify-center items-center bg-black'>
+		<div className='w-full'>
 			<img src="image/Group 44.png" alt="Header Image" className="w-full object-fill"/>
 		</div>
 		
@@ -26,8 +26,8 @@ function Header() {
 
 function Footer() {
 	return(
-		<div>
-			<img src="image/Rectangle 239.png" alt="Bottom Image" class="w-full max-h-[300px] sm:max-h-[400px] md:max-h-[500px] object-fill"/>
+		<div className='w-full'>
+			<img src="image/Rectangle 239.png" alt="Bottom Image" className="w-full object-fill"/>
 		</div>
 	)
 }
